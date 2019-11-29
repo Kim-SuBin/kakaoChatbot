@@ -42,6 +42,10 @@ def skill():
                                 "label": "Azure",
                                 "action": "webLink",
                                 "messageText": "https://portal.azure.com"
+                            },
+                            {
+                                "label": "share",
+                                "action": "share"
                             }
                         ]
                     }
