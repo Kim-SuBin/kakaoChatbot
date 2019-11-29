@@ -25,11 +25,25 @@ def skill():
         "template": {
             "outputs": [
                 {
-                    "simpleImage":{
-                        "imageUrl":
-                            "https://cf.festa.io/img/2019-11-14/791369de-e762-4cc1-a341-68ce8c4a467f.png",
-                        "altText": "HUFS 로고"
+                    "basicCard":{
+                        "title": "Kakao",
+                        "description" : "Kakao Image",
+                        "Thumbnail": {
+                            "https://t1.daumcdn.net/friends/www/talk/kakaofriends_talk_2018.png"
+                        }
+                        "buttons":[
+                            {
+                                "label" : "First button",
+                                "action" : "message",
+                                "messageText" : "First button"
+                            }
+                        ]
                     }
+                    # "simpleImage":{
+                    #     "imageUrl":
+                    #         "https://cf.festa.io/img/2019-11-14/791369de-e762-4cc1-a341-68ce8c4a467f.png",
+                    #     "altText": "Python 라이브러리 Scrapy를 이용한 Crawling 배워보기"
+                    # }
                     # "simpleText": {
                     #     "text": "간단한 텍스트 요소입니다."
                     # }
