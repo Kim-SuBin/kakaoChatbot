@@ -30,7 +30,7 @@ def skill():
                         "description" : "Kakao Image",
                         "Thumbnail": {
                             "https://t1.daumcdn.net/friends/www/talk/kakaofriends_talk_2018.png"
-                        }
+                        },
                         "buttons":[
                             {
                                 "label" : "First button",
