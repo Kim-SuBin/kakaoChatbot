@@ -30,7 +30,11 @@ def skill():
                         "description": "상세 설명",
                         "thumbnail": {
                             "imageUrl":
-                                "https://t1.daumcdn.net/friends/www/talk/kakaofriends_talk_2018.png"
+                                "https://t1.daumcdn.net/friends/www/talk/kakaofriends_talk_2018.png",
+                            "link":{
+                                "mobile": "https://naver.com",
+                                "android": "https://google.com"
+                            }
                         },
                         "buttons": [
                             {
