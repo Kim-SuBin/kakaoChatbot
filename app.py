@@ -33,14 +33,15 @@ def skill():
                                 "https://t1.daumcdn.net/friends/www/talk/kakaofriends_talk_2018.png",
                             "link":{
                                 "mobile": "https://naver.com",
-                                "android": "https://google.com"
+                                "android": "https://google.com",
+                                "pc" : "https://github.com"
                             }
                         },
                         "buttons": [
                             {
-                                "label": "첫번째 버튼",
+                                "label": "Azure",
                                 "action": "message",
-                                "messageText": "첫번쨰 버튼을 눌렀습니다."
+                                "messageText": "https://portal.azure.com"
                             }
                         ]
                     }
