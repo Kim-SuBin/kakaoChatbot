@@ -58,6 +58,7 @@ def skill():
                     #     "text": "간단한 텍스트 요소입니다."
                     # }
                     "simpleText": {
+                        # "test" : "아래 노란 버튼이 quickReply!!"
                         "text": "User key : " + str(
                             request.json['userRequest']['user']['properties']['plusFriendUserKey'])
                     }
