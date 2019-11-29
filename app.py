@@ -25,19 +25,20 @@ def skill():
         "template": {
             "outputs": [
                 {
-                    "basicCard":{
+                    "basicCard": {
                         "title": "Kakao",
                         "description" : "Kakao Image",
                         "Thumbnail": {
                             "https://t1.daumcdn.net/friends/www/talk/kakaofriends_talk_2018.png"
-                        },
-                        "buttons":[
-                            {
-                                "label" : "First button",
-                                "action" : "message",
-                                "messageText" : "First button"
-                            }
-                        ]
+                        
+                            "buttons":[
+                                {
+                                    "label":"First button",
+                                    "action": "message",
+                                    "messageText" : "First button"
+                                }
+                            ]
+                        }
                     }
                     # "simpleImage":{
                     #     "imageUrl":
