@@ -40,7 +40,7 @@ def skill():
                         "buttons": [
                             {
                                 "label": "Azure",
-                                "action": "message",
+                                "action": "webLink",
                                 "messageText": "https://portal.azure.com"
                             }
                         ]
