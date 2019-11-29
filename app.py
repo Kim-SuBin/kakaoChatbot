@@ -25,30 +25,30 @@ def skill():
         "template": {
             "outputs": [
                 {
-                    "basicCard": {
-                        "title": "카드의 제목",
-                        "description": "상세 설명",
-                        "thumbnail": {
-                            "imageUrl":
-                                "https://t1.daumcdn.net/friends/www/talk/kakaofriends_talk_2018.png",
-                            "link":{
-                                "mobile": "https://naver.com",
-                                "android": "https://google.com",
-                                "pc" : "https://github.com"
-                            }
-                        },
-                        "buttons": [
-                            {
-                                "label": "Azure",
-                                "action": "webLink",
-                                "messageText": "https://portal.azure.com"
-                            },
-                            {
-                                "label": "share",
-                                "action": "share"
-                            }
-                        ]
-                    }
+                    # "basicCard": {
+                    #     "title": "카드의 제목",
+                    #     "description": "상세 설명",
+                    #     "thumbnail": {
+                    #         "imageUrl":
+                    #             "https://t1.daumcdn.net/friends/www/talk/kakaofriends_talk_2018.png",
+                    #         "link":{
+                    #             "mobile": "https://naver.com",
+                    #             "android": "https://google.com",
+                    #             "pc" : "https://github.com"
+                    #         }
+                    #     },
+                    #     "buttons": [
+                    #         {
+                    #             "label": "Azure",
+                    #             "action": "webLink",
+                    #             "messageText": "https://portal.azure.com"
+                    #         },
+                    #         {
+                    #             "label": "share",
+                    #             "action": "share"
+                    #         }
+                    #     ]
+                    # }
                     # "simpleImage":{
                     #     "imageUrl":
                     #         "https://cf.festa.io/img/2019-11-14/791369de-e762-4cc1-a341-68ce8c4a467f.png",
@@ -57,6 +57,27 @@ def skill():
                     # "simpleText": {
                     #     "text": "간단한 텍스트 요소입니다."
                     # }
+                    "simpleText": {
+                        "text": "User key : " + str(
+                            request.json['userRequest']['user']['properties']['plusFriendUserKey'])
+                    }
+                }
+            ],
+            "quickReplies" : [
+                {
+                    "label": "quickReply 1",
+                    "action": "message",
+                    "messageText": "quickReply 1 request message"
+                },
+                {
+                    "label": "quickReply 2",
+                    "action": "message",
+                    "messageText": "quickReply 2 request message"
+                },
+                {
+                    "label": "quickReply 3",
+                    "action": "message",
+                    "messageText": "quickReply 3 request message"
                 }
             ]
         }
